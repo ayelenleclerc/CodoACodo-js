@@ -1,0 +1,183 @@
+.links {
+  display: flex;
+  flex-basis: auto;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+}
+
+.banner {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  min-height: 700px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../image/ba1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.banner-contenido {
+  width: 35%;
+  margin-right: 110px;
+  margin-top: 155px;
+}
+
+.title-banner {
+  text-align: end;
+  font-weight: bold;
+}
+
+.texto-banner {
+  text-align: right;
+  line-height: 1.5;
+}
+
+.boton-banner {
+  width: 175px;
+}
+
+.transparente {
+  margin-left: 50px;
+  margin-right: 20px;
+}
+.verde {
+  background-color: #08a808;
+  margin-right: 125px;
+}
+
+.oradores {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.oradores-title {
+  text-align: center;
+  margin-top: 15px;
+}
+.cards-container {
+  display: flex;
+  width: 100%;
+  margin: 0px auto;
+  gap: 2rem;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.boton-card {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+.negocios {
+  background-color: #6c757d;
+}
+
+.texto-card {
+  font-size: 10px;
+}
+
+.info-slider {
+  padding: 30px;
+}
+
+.charla {
+  text-decoration: underline dotted;
+  color: black;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.inputs {
+  width: 100%;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.text-area {
+  font-size: 20px;
+}
+
+.textarea {
+  font-size: 20px;
+  resize: none;
+}
+
+.texto-info {
+  font-size: 12px;
+  color: #6c757d;
+  margin-top: 5px;
+}
+
+.boton-formulario {
+  background-color: #9bda0a;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list {
+  background-color: rgb(3, 51, 63);
+  color: white;
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ul-footer {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+.li-footer {
+  list-style: none;
+  width: 10%;
+  text-align: center;
+}
+
+.mi-footer {
+  height: 20px;
+}
+.my-footer {
+  display: flex;
+  height: 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
